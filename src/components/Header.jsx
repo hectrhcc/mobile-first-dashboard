@@ -18,7 +18,7 @@ export const Header = () => {
     }, [darkMode])
 
   return (
-    <header className="bg-Very-Pale-Blue dark:bg-Very-Dark-Blue h-[235] rounded-b-[20px] pt-8 px-6 mb-[1000px] md:mb-[560px] lg:mb-[320px]  xl:mb-[290px] sm:mb-[530px]">
+    <header className="bg-Very-Pale-Blue dark:bg-Very-Dark-Blue h-[235] rounded-b-[20px] pt-8 px-6 mb-[1000px] md:mb-[560px] lg:mb-[320px]  xl:mb-[340px] sm:mb-[530px]">
     <h1 className="text-Very-Dark-Blue dark:text-Very-Pale-Blue text-2xl font-bold mb-0">Social Media Dashboard</h1>
     <div className="md:flex md:justify-between items-center ">
     <p className="text-Dark-Grayish-Blue  dark:text-Desaturated-Blue font-bold mb-0">Total Followers: 23,004</p>
