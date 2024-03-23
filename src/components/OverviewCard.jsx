@@ -48,7 +48,7 @@ export const OverviewCard = ({user, audienceType, audience, network, isUp,today}
 
 export const OverviewTodayCard = ({network,statsType, stats, porcentage,isUp}) => {
   return (
-    <article className='bg-Light-Grayish-Blue w-[326px] h-[125px] mb-4 mx-auto rounded-[5px] p-[27px] cursor-pointer hover:brightness-95 dark:bg-Dark-Desaturated-Blue hover:dark:brightness-125 lg:w-[250px]' >
+    <article className='bg-Light-Grayish-Blue w-[326px] h-[125px] mb-4 mx-auto rounded-[5px] p-[27px] cursor-pointer hover:brightness-95 dark:bg-Dark-Desaturated-Blue hover:dark:brightness-125 lg:w-[290px]' >
         <div className='flex items-center justify-between'>
             <p className='text-Dark-Grayish-Blue'>{statsType}</p>
             <img src={ networkLogos[network]}  alt='logos de redes'/>
